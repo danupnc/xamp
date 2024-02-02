@@ -1,0 +1,19 @@
+
+
+<html>
+<body>
+
+<?php
+$n = 0;
+$suma = 0;
+do {
+    $suma = $suma +$n;
+    $n++;
+} while ($n <= 3);
+
+echo "Suma este $suma";
+?>
+</body>
+</html>
+
+
